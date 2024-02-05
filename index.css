@@ -1,3 +1,50 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- White: hsl(0, 0%, 100%)
+- Black: hsl(0, 0%, 0%)
+- Dark Gray: hsl(0, 0%, 55%)
+- Very Dark Gray: hsl(0, 0%, 41%)
+
+### Neutral
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Fonts
+
+- Family: [Alata](https://fonts.google.com/specimen/Alata)
+- Weight: 400
+
+- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+- Weight: 300
+
+## Icons
+
+We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
+
+
+
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,4 +52,51 @@
 
 html {
   font-size: 16px;
+}
+
+header {
+  background-image: url("/images/desktop/image-hero.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 70vh;
+  font-family: "Alata", sans-serif;
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.style {
+  color: hsl(0, 0%, 100%);
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+#site-title {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+  gap: 2em;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.header-banner-title {
+  position: absolute;
+  left: 14.5%;
+  top: 40%;
+  padding: 2.25rem 0.5rem;
+  border: 1px solid rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+  width: 30rem;
+  font-size: 4rem;
 }

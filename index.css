@@ -54,6 +54,8 @@ html {
   font-size: 16px;
 }
 
+/* --------------------------- Header ------------------------------ */
+
 header {
   background-image: url("/images/desktop/image-hero.jpg");
   background-size: cover;
@@ -97,6 +99,26 @@ header {
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   display: inline-block;
-  width: 30rem;
+  max-width: 30rem;
   font-size: 4rem;
+}
+
+/* ----------------Main Section ---------------------------- */
+
+.VR-container > img {
+  margin-left: 7.5rem;
+  width: 50%;
+}
+
+.VR-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  width: 50%;
+  padding: 2rem;
+}
+
+.VR-info h3 {
+  font-size: 1.5rem;
 }
